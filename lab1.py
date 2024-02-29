@@ -6,7 +6,7 @@ import requests
 # Ask the user to input a URL
 url = input('Enter the URL: ')
 
-# Checking if URL starts with https or http, if not add https:// 
+# Checking if URL starts with https 
 if not url.startswith("https://"):
     url = "https://" + url
 
